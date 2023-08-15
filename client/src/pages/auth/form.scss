@@ -1,0 +1,124 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+
+  &__popup {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: absolute;
+    width: 500px;
+    border-radius: 6px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    z-index: 20;
+    transition: all 0.4s;
+    padding: 30px;
+    animation: show 0.5s ease-in-out forwards;
+    background: lightcyan;
+
+    @keyframes show {
+      from {
+        opacity: 0;
+        transform: translate(-50%, -200px);
+      }
+      to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    & img {
+      width: 100px;
+      margin-top: -60px;
+      border-radius: 50%;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    & h2 {
+      font-size: 38px;
+      margin: 30px 0 20px;
+    }
+
+    & p {
+      margin: 10px;
+    }
+
+    & button {
+      margin: 10px;
+      width: 150px;
+    }
+  }
+
+  &__form {
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    & h1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    &__input {
+      position: relative;
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 15px;
+
+      input {
+        flex: 1;
+        padding: 10px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: #333;
+        font-size: 16px;
+      }
+
+      &__eye {
+        position: absolute;
+        right: 10px;
+        top: 7px;
+        font-size: 20px;
+        color: #999;
+        cursor: pointer;
+
+        &:hover {
+          color: #666;
+        }
+      }
+    }
+
+    &__error {
+      color: #ff0000;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+
+    &__nav {
+      text-align: center;
+      margin-top: 10px;
+
+      a {
+        color: #007bff;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

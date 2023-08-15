@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 40px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.15);
+  background: rgb(210, 210, 239);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
