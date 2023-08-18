@@ -2,14 +2,15 @@
 
 ![GitHub repo size](https://github.com/CharonTom/my-website/blob/main/src/assets/img/auth.png)
 
-Il s'agit d'un portail de connection qui permet aux utilisateurs de se connecter de manière sécurisée. L'application a été développée en utilisant les technologies modernes du développement web.
+Le projet "Login Portal" est une petite application web full-stack conçue pour la gestion des connexions et des inscriptions. Cette application met en œuvre les meilleures pratiques de développement et de sécurité, en utilisant un ensemble diversifié de technologies.
 
 ## Fonctionnalités
 
-- Système d'inscription et de connexion sécurisé.
-- Gestion des sessions utilisateur pour une expérience fluide.
-- Respect des normes de sécurité OWASP.
-- Interface utilisateur intuitive et conviviale.
+- Inscription et Connexion : Les utilisateurs peuvent s'inscrire en fournissant une adresse e-mail unique et un nom d'utilisateur. La fonction de connexion permet aux utilisateurs de se connecter en toute sécurité à leur compte.
+
+- Sécurité Renforcée : Les mots de passe des utilisateurs sont hachés avant d'être stockés dans la base de données, garantissant la sécurité des informations sensibles. De plus, les adresses e-mail et les noms d'utilisateur sont uniques pour chaque compte.
+
+- Gestion des Erreurs : Des mécanismes sophistiqués de gestion des erreurs sont en place, tant au niveau du front-end que du back-end. Les utilisateurs sont guidés à travers des messages d'erreur clairs et informatifs, notamment en cas de tentative d'inscription avec des informations déjà existantes.
 
 ## Technologies utilisées
 
