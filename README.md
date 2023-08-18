@@ -1,4 +1,4 @@
-# Login Portal
+# Login Portal ( Version MySQL )
 
 ![GitHub repo size](https://github.com/CharonTom/my-website/blob/main/src/assets/img/auth.png)
 
